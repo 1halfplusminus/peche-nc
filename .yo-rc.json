@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "nc.si2p.peche",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "monolith",
+    "baseName": "pechenc",
+    "packageName": "nc.si2p.peche",
+    "packageFolder": "nc/si2p/peche",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTkyMTJlMjA1NDEwNzIwNmMxZWYzZWQ5MWZiMDc2NzhlY2RmMDZlODc0OWRlYTRlNTcxNDk1MzBlZmE2NTViYzA0NTg1MGMwNzExZmJjYjNkNDRhN2M3ODkwZDc4YTYwMjg1MTBlOTlhMjcxNmUzMjQ0NTdlMzZlOWVmMzA2NTM=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  }
+}
