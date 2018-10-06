@@ -1,0 +1,32 @@
+
+{
+    "pechencApp": {
+        "psIlot" : {
+            "home": {
+                "title": "PsIlots",
+                "createLabel": "Créer un nouveau Ps Ilot",
+                "createOrEditLabel": "Créer ou éditer un Ps Ilot",
+                "search": "Recherche pour Ps Ilot"
+            },
+            "created": "Un nouveau Ps Ilot a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Ps Ilot avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Ps Ilot avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Ps Ilot {{ id }} ?"
+            },
+            "detail": {
+                "title": "Ps Ilot"
+            },
+            "lat": "Lat",
+            "lng": "Lng",
+            "idIlot": "Id Ilot",
+            "calendrier": "Calendrier",
+            "commune": "Commune",
+            "posehelico": "Posehelico",
+            "titre": "Titre",
+            "copyright": "Copyright",
+            "photo": "Photo",
+            "status": "Status"
+        }
+    }
+}

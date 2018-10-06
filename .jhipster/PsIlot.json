@@ -1,0 +1,57 @@
+{
+    "name": "PsIlot",
+    "fields": [
+        {
+            "fieldName": "lat",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "lng",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "idIlot",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "calendrier",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commune",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "posehelico",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "titre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "copyright",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "PSStatus",
+            "fieldValues": "VALIDE,NONVALIDE"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181003083628",
+    "entityTableName": "ps_ilot",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

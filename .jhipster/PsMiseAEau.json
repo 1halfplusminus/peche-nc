@@ -1,0 +1,88 @@
+{
+    "name": "PsMiseAEau",
+    "fields": [
+        {
+            "fieldName": "lat",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "lng",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "access",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "amenagee",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "commune",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lieuDit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parkingPlace",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "observation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parking",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "payant",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "pointEau",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "poubelles",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "toilettes",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "titre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photos",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "PSStatus",
+            "fieldValues": "VALIDE,NONVALIDE"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "marinas",
+            "otherEntityName": "psMarina",
+            "otherEntityField": "idMarina"
+        }
+    ],
+    "changelogDate": "20181003083630",
+    "entityTableName": "ps_mise_a_eau",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,40 @@
+
+{
+    "pechencApp": {
+        "psMarina" : {
+            "home": {
+                "title": "PsMarinas",
+                "createLabel": "Créer un nouveau Ps Marina",
+                "createOrEditLabel": "Créer ou éditer un Ps Marina",
+                "search": "Recherche pour Ps Marina"
+            },
+            "created": "Un nouveau Ps Marina a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Ps Marina avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Ps Marina avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Ps Marina {{ id }} ?"
+            },
+            "detail": {
+                "title": "Ps Marina"
+            },
+            "lat": "Lat",
+            "lng": "Lng",
+            "idMarina": "Id Marina",
+            "access": "Access",
+            "amenagee": "Amenagee",
+            "commune": "Commune",
+            "lieuDit": "Lieu Dit",
+            "parkingPlace": "Parking Place",
+            "observation": "Observation",
+            "parking": "Parking",
+            "payant": "Payant",
+            "pointEau": "Point Eau",
+            "poubelles": "Poubelles",
+            "toilettes": "Toilettes",
+            "titre": "Titre",
+            "photos": "Photos",
+            "status": "Status",
+            "miseAEaux": "Mise A Eaux"
+        }
+    }
+}

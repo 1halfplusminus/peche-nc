@@ -1,0 +1,9 @@
+{
+    "pechencApp": {
+        "PSStatus" : {
+            "null": "",
+            "VALIDE": "VALIDE",
+            "NONVALIDE": "NONVALIDE"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+{
+    "pechencApp": {
+        "markers" : {
+            "home": {
+                "title": "Markers",
+                "createLabel": "Créer un nouveau Markers",
+                "createOrEditLabel": "Créer ou éditer un Markers",
+                "search": "Recherche pour Markers"
+            },
+            "created": "Un nouveau Markers a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Markers avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Markers avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Markers {{ id }} ?"
+            },
+            "detail": {
+                "title": "Markers"
+            },
+            "icon": "Icon",
+            "titre": "Titre",
+            "description": "Description",
+            "email": "Email",
+            "pj": "Pj",
+            "ip": "Ip",
+            "lat": "Lat",
+            "lng": "Lng",
+            "date": "Date"
+        }
+    }
+}

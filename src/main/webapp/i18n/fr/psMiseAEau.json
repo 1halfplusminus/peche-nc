@@ -1,0 +1,39 @@
+
+{
+    "pechencApp": {
+        "psMiseAEau" : {
+            "home": {
+                "title": "PsMiseAEaus",
+                "createLabel": "Créer un nouveau Ps Mise A Eau",
+                "createOrEditLabel": "Créer ou éditer un Ps Mise A Eau",
+                "search": "Recherche pour Ps Mise A Eau"
+            },
+            "created": "Un nouveau Ps Mise A Eau a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Ps Mise A Eau avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Ps Mise A Eau avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Ps Mise A Eau {{ id }} ?"
+            },
+            "detail": {
+                "title": "Ps Mise A Eau"
+            },
+            "lat": "Lat",
+            "lng": "Lng",
+            "access": "Access",
+            "amenagee": "Amenagee",
+            "commune": "Commune",
+            "lieuDit": "Lieu Dit",
+            "parkingPlace": "Parking Place",
+            "observation": "Observation",
+            "parking": "Parking",
+            "payant": "Payant",
+            "pointEau": "Point Eau",
+            "poubelles": "Poubelles",
+            "toilettes": "Toilettes",
+            "titre": "Titre",
+            "photos": "Photos",
+            "status": "Status",
+            "marinas": "Marinas"
+        }
+    }
+}

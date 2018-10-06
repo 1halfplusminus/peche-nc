@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181003083626_added_entity_DCP.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181003083627_added_entity_Markers.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181003083628_added_entity_PsIlot.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181003083629_added_entity_PsMarina.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181003083630_added_entity_PsMiseAEau.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20181003083630_added_entity_constraints_PsMiseAEau.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <include file="config/liquibase/changelog/20181003083631_load_DCP" relativeToChangelogFile="false"/>
+</databaseChangeLog>

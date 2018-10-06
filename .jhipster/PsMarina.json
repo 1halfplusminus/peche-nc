@@ -1,0 +1,92 @@
+{
+    "name": "PsMarina",
+    "fields": [
+        {
+            "fieldName": "lat",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "lng",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "idMarina",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "access",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "amenagee",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "commune",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lieuDit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parkingPlace",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "observation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parking",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "payant",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "pointEau",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "poubelles",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "toilettes",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "titre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photos",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "PSStatus",
+            "fieldValues": "VALIDE,NONVALIDE"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "miseAEaux",
+            "otherEntityName": "psMiseAEau",
+            "otherEntityRelationshipName": "marinas"
+        }
+    ],
+    "changelogDate": "20181003083629",
+    "entityTableName": "ps_marina",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

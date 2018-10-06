@@ -1,0 +1,83 @@
+entity DCP {
+	nom String required
+    position String
+    lat Float
+    lng Float 
+    dateDerniereMaj LocalDate
+    etat DCPEtat
+    localisation String
+}
+enum DCPEtat {
+	Disparu, Normal
+}
+
+entity Markers {
+	icon ImageBlob
+    titre String
+    description TextBlob
+    email String
+    pj ImageBlob
+    ip String
+    lat Float
+    lng Float
+    date LocalDate
+}
+enum PSStatus {
+	Valide, NonValide 
+}
+
+entity PsIlot {
+    lat Float
+    lng Float
+    idIlot String
+    calendrier String
+    commune String
+    posehelico String
+    titre String
+    copyright String
+    photo ImageBlob
+    status PSStatus
+}
+
+entity PsMarina {
+	lat Float
+    lng Float
+    idMarina String
+    access String
+    amenagee Boolean
+    commune String
+    lieuDit String
+    parkingPlace Integer
+    observation String
+    parking Boolean
+    payant Boolean
+    pointEau Boolean
+    poubelles Boolean
+    toilettes Boolean
+    titre String
+    photos ImageBlob
+    status PSStatus
+}
+
+entity PsMiseAEau {
+    lat Float
+    lng Float
+    access String
+    amenagee Boolean
+    commune String
+    lieuDit String
+    parkingPlace Integer
+    observation String
+    parking Boolean
+    payant Boolean
+    pointEau Boolean
+    poubelles Boolean
+    toilettes Boolean
+    titre String
+    photos ImageBlob
+    status PSStatus
+}
+
+relationship ManyToOne {	
+  PsMiseAEau{marinas(idMarina)} to PsMarina{miseAEaux}
+}

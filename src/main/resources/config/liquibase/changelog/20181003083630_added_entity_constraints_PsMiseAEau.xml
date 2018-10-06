@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity PsMiseAEau.
+    -->
+    <changeSet id="20181003083630-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="marinas_id"
+                                 baseTableName="ps_mise_a_eau"
+                                 constraintName="fk_ps_miseaeau_marinas_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ps_marina"/>
+
+    </changeSet>
+</databaseChangeLog>

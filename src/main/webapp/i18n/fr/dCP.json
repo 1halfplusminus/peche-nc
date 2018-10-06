@@ -1,0 +1,29 @@
+
+{
+    "pechencApp": {
+        "dCP" : {
+            "home": {
+                "title": "DCPS",
+                "createLabel": "Créer un nouveau DCP",
+                "createOrEditLabel": "Créer ou éditer un DCP",
+                "search": "Recherche pour DCP"
+            },
+            "created": "Un nouveau DCP a été créé avec l'identifiant {{ param }}",
+            "updated": "Le DCP avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le DCP avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le DCP {{ id }} ?"
+            },
+            "detail": {
+                "title": "DCP"
+            },
+            "nom": "Nom",
+            "position": "Position",
+            "lat": "Lat",
+            "lng": "Lng",
+            "dateDerniereMaj": "Date Derniere Maj",
+            "etat": "Etat",
+            "localisation": "Localisation"
+        }
+    }
+}

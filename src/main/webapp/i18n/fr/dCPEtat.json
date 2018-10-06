@@ -1,0 +1,9 @@
+{
+    "pechencApp": {
+        "DCPEtat" : {
+            "null": "",
+            "DISPARU": "DISPARU",
+            "NORMAL": "NORMAL"
+        }
+    }
+}
